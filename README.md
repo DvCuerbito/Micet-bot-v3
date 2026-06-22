@@ -23,3 +23,15 @@ https://whatsapp.com/channel/0029VbCq9xP2ZjCr6AGMzi1b
 > *Comandos para instalar de forma manual*
 ```bash
 termux-setup-storage
+```bash
+pkg update && pkg upgrade -y
+pkg install git nodejs ffmpeg imagemagick wget -y
+```bash
+git clone https://github.com/DvCuerbito/Micet-bot-v3.git
+```bash
+cd micet-bot-v3
+```bash
+npm install
+```bash
+
+npm start
