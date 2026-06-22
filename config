@@ -1,0 +1,13 @@
+export default {
+    nombre: 'MICET',
+    nombre2: 'Bot',
+    prefix: '.',
+    owner: ['5492644156919', '5219992042946'],
+    version: '1.0.0',
+    tipo: 'principal',
+    creador: '—͟͞ ⁱᵃᵐ Cuerbito 𒆜ᴼᶠⁱᶜⁱᵃˡ',
+    canalId: '120363427517609839@newsletter',
+    canalNombre: '—͟͞ ⁱᵃᵐ Cuerbito 𒆜ᴼᶠⁱᶜⁱᵃˡ',
+    canalLink: 'https://whatsapp.com/channel/0029VbCq9xP2ZjCr6AGMzi1b',
+    banner: 'https://i.postimg.cc/KYkDD10K/IMG-20260620-WA0361.jpg'
+};
