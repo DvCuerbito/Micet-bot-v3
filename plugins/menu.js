@@ -26,6 +26,19 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > ${usedPrefix}rt (red o black)
 > ========================
 
+> [💼] ADMINISTRACION
+> ${usedPrefix}open
+> ${usedPrefix}closep
+> ${usedPrefix}promote
+> ${usedPrefix}demote
+> ${usedPrefix}kick
+> ${usedPrefix}warn
+> ${usedPrefix}delwarns
+> ${usedPrefix}warns
+> ${usedPrefix}bot
+> ========================
+
+
 > [⚡] INFO BOT
 > ${usedPrefix}creador
 > ${usedPrefix}ping
@@ -39,6 +52,8 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > ${usedPrefix}tiktok
 > ${usedPrefix}facebook
 > ${usedPrefix}ig
+> ${usedPrefix}apk
+> ${usedPrefix}mediafire
 > ========================
 
 > [🍟] DIVERSIÓN
@@ -46,6 +61,11 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > ${usedPrefix}Sorteo
 > ${usedPrefix}gay
 > ${usedPrefix}lesbiana
+> ${usedPrefix}bratv
+> ${usedPrefix}qc
+> ${usedPrefix}brat
+> ${usedPrefix}top2
+> ${usedPrefix}baltop
 > ========================
 
 > [🍫] UTILES BOT
