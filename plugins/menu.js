@@ -1,5 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-    await conn.sendMessage(m.chat, { react: { text: "🌵", key: m.key } })
+    await conn.sendMessage(m.chat, { react: { text: "🍟", key: m.key } })
     
     let nombreBot = global.botname || conn.getName(conn.user.jid) || 'Cuervito-Bot'
     let tipoBot = 'Sub Bot'
