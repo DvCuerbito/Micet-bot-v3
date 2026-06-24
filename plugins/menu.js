@@ -1,7 +1,7 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
     await conn.sendMessage(m.chat, { react: { text: "🍟", key: m.key } })
     
-    let nombreBot = global.botname || conn.getName(conn.user.jid) || 'Cuervito-Bot'
+    let nombreBot = global.botname || conn.getName(conn.user.jid) || 'Micet-Bot'
     let tipoBot = 'Sub Bot'
     let user = `@${m.sender.split('@')[0]}`
     let canal = 'https://whatsapp.com/channel/0029VbCq9xP2ZjCr6AGMzi1b'
