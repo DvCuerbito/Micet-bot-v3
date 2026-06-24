@@ -1,8 +1,8 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-    await conn.sendMessage(m.chat, { react: { text: "⚡", key: m.key } })
+    await conn.sendMessage(m.chat, { react: { text: "🌵", key: m.key } })
     
     let nombreBot = global.botname || conn.getName(conn.user.jid) || 'Cuervito-Bot'
-    let tipoBot = 'Sub Bot MD'
+    let tipoBot = 'Sub Bot'
     let user = `@${m.sender.split('@')[0]}`
     let canal = 'https://whatsapp.com/channel/0029VbCq9xP2ZjCr6AGMzi1b'
     let creador = global.creador || 'Cuerbito 𒆜ᴼᶠⁱᶜⁱᵃˡ'
@@ -16,6 +16,23 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > 💎 Canal  : ${canal}
 > ========================
 
+> [💼] ECONOMY BOT
+> ${usedPrefix}work
+> ${usedPrefix}Slut
+> ${usedPrefix}Crime
+> ${usedPrefix}Pescar
+> ${usedPrefix}bal
+> ${usedPrefix}poder
+> ${usedPrefix}rt (red o black)
+> ========================
+
+> [⚡] INFO BOT
+> ${usedPrefix}creador
+> ${usedPrefix}ping
+> ${usedPrefix}infobot
+> ${usedPrefix}bots
+> ========================
+
 > [🧃] DESCARGAS
 > ${usedPrefix}play
 > ${usedPrefix}play2
@@ -24,11 +41,11 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 > ${usedPrefix}ig
 > ========================
 
-> [🍟] INFO BOT
-> ${usedPrefix}creador
-> ${usedPrefix}ping
-> ${usedPrefix}infobot
-> ${usedPrefix}bots
+> [🍟] DIVERSIÓN
+> ${usedPrefix}Slap (menciona un sticker)
+> ${usedPrefix}Sorteo
+> ${usedPrefix}gay
+> ${usedPrefix}lesbiana
 > ========================
 
 > [🍫] UTILES BOT
